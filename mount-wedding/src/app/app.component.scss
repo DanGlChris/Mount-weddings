@@ -1,0 +1,122 @@
+
+.container{
+  width: 100%;
+}
+  
+@media (min-width: 640px){
+  .container{
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px){
+  .container{
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px){
+  .container{
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px){
+  .container{
+    max-width: 1280px;
+  }
+}
+  
+@media (min-width: 1536px){
+  .container{
+    max-width: 1536px;
+  }
+}
+
+.absolute{
+position: absolute;
+}
+
+.relative{
+position: relative;
+}
+
+.bottom-0{
+bottom: 0px;
+}
+
+.left-0{
+left: 0px;
+}
+
+.right-0{
+right: 0px;
+}
+
+.mx-auto{
+margin-left: auto;
+margin-right: auto;
+}
+
+.mb-1{
+margin-bottom: 0.25rem;
+}
+
+.mb-12{
+margin-bottom: 3rem;
+}
+
+.mb-2{
+margin-bottom: 0.5rem;
+}
+
+.ml-4{
+margin-left: 1rem;
+}
+
+//header
+  
+.container{
+  padding: 5px;
+}
+  
+.logo {
+  height: 40px;
+}
+  
+.header nav {
+  display: flex;
+  align-items: center;
+}
+  
+.header ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+  
+.header li {
+  margin-left: 20px;
+}
+  
+.header a {
+  text-decoration: none;
+  color: rgb(255, 249, 249);
+}
+
+.main-section{
+  color: #000000;
+} 
+
+footer {
+  background-color: #de1e5c;
+  height: 100px !important;
+}
+.contact {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.contact:hover {
+  color: rgb(168, 166, 166);
+}

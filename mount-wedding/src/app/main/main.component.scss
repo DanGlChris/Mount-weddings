@@ -1,0 +1,30 @@
+.main-menu {
+    background-color: #333;
+    overflow: hidden;
+}
+  
+.main-menu li {
+    float: left;
+    padding: 10px 20px;
+}
+  
+.main-menu a {
+    color: white;
+    text-decoration: none;
+}
+.text-2xl{
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+.font-bold{
+    font-weight: 700;
+  }
+.relative{
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.coolbox{
+    padding: 0 4%;
+  }
+  

@@ -1,0 +1,15 @@
+#login {
+    min-height: 100vh;
+}
+.flex{
+    display: flex;
+    text-decoration: none;
+    font-weight: bold;
+    padding-right: 25%;
+}
+.flex a {
+    padding: 0 15px
+}
+.flex a:hover {
+    color: #9ca3af;
+}

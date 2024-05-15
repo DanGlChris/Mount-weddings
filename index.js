@@ -2,7 +2,7 @@ async function loadNavBar() {
     const rawResponse = await fetch('menubar.html');
     const template = await rawResponse.text();
     
-    const targetElements = document.getElementsByClassName('.navbar');
+    const targetElements = document.getElementsByClassName('.navbar_');
 
     [...targetElements].forEach((element) => {
         element.innerHTML = template;
